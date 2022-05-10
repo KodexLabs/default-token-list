@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Frax",
+    "address": "0x7562F525106F5d54E891e005867Bf489B5988CD9",
+    "symbol": "FRAX",
+    "decimals": 18,
+    "chainId": 288,
+    "logoURI": "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png?1608476506"
+  },
+  {
+    "name": "Dai",
+    "address": "0xf74195Bb8a5cf652411867c5C2C5b8C2a402be35",
+    "symbol": "DAI",
+    "decimals": 18,
+    "chainId": 288,
+    "logoURI": "https://assets.coingecko.com/coins/images/9956/small/4943.png?1636636734"
+  },
+  {
+    "name": "USD Coin",
+    "address": "0x66a2A913e447d6b4BF33EFbec43aAeF87890FBbc",
+    "symbol": "USDC",
+    "decimals": 6,
+    "chainId": 288,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389"
+  },
+  {
+    "name": "Tether USD",
+    "address": "0x5DE1677344D3Cb0D7D465c10b72A8f60699C062d",
+    "symbol": "USDT",
+    "decimals": 6,
+    "chainId": 288,
+    "logoURI": "https://assets.coingecko.com/coins/images/325/small/Tether-logo.png?1598003707"
+  }
+]

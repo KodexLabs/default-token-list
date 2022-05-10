@@ -1,0 +1,47 @@
+{
+  "name": "@koyo-finance/default-token-list",
+  "version": "1.0.0",
+  "description": "",
+  "author": "p7m",
+  "license": "AGPL-3.0-or-later",
+  "main": "build/koyo-default.tokenlist.json",
+  "keywords": [
+    "koyo",
+    "finance",
+    "koyo-finance",
+    "default",
+    "token",
+    "list",
+    "boba"
+  ],
+  "private": false,
+  "scripts": {
+    "test": "mocha",
+    "clean": "rimraf build",
+    "prebuild": "yarn clean",
+    "build": "mkdir -p build && node src/write.js > build/koyo-default.tokenlist.json",
+    "prepublishOnly": "yarn test && yarn build"
+  },
+  "files": [
+    "build/koyo-default.tokenlist.json"
+  ],
+  "devDependencies": {
+    "@ethersproject/address": "^5.0.2",
+    "@uniswap/token-lists": "^1.0.0-beta.8",
+    "ajv": "^8.11.0",
+    "chai": "^4.2.0",
+    "mocha": "^10.0.0",
+    "rimraf": "^3.0.2"
+  },
+  "homepage": "https://github.com/koyo-finance/default-token-list",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koyo-finance/default-token-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koyo-finance/default-token-list/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

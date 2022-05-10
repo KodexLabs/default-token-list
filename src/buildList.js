@@ -12,7 +12,7 @@ module.exports = function buildList() {
       patch: +parsed[2],
     },
     tags: {},
-    logoURI: "",
+    logoURI: "ipfs://QmXRLVmTmtpPNFfCaWDpkjE4tGFt5GxVJkmekRP3d9HGYm",
     keywords: ["koyo", "stableswap", "default"],
     tokens: [...boba].sort((t1, t2) => {
       if (t1.chainId === t2.chainId) {

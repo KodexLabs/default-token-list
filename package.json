@@ -1,5 +1,5 @@
 {
-  "name": "@koyo-finance/default-token-list",
+  "name": "@koyofinance/default-token-list",
   "version": "1.0.0",
   "description": "",
   "author": "p7m",
@@ -9,6 +9,7 @@
     "koyo",
     "finance",
     "koyo-finance",
+    "koyofinance",
     "default",
     "token",
     "list",

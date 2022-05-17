@@ -1,3 +1,8 @@
 node_modules
 build/
 yarn-error.log
+
+sync/*
+!sync/.gitkeep
+
+.DS_Store

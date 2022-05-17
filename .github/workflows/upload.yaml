@@ -1,4 +1,4 @@
-name: Upload Website
+name: Upload assets
 
 on:
   push:
@@ -13,8 +13,8 @@ jobs:
       uses: actions/checkout@master
     - name: Copy assets into sync folder
       run: |
-        cp ./src/tokens ./sync
-        cp ./token-icons ./sync
+        cp -R ./src/tokens ./sync
+        cp -R ./token-icons ./sync
     - name: Upload assets
       uses: jakejarvis/s3-sync-action@master
       with:

@@ -1,9 +1,11 @@
 name: Upload assets
-
 on:
   push:
     branches:
-    - main
+      - main
+    paths:
+      - 'src/tokens/**'
+      - 'token-icons/**'
 
 jobs:
   deploy:
@@ -14,7 +16,9 @@ jobs:
     - name: Copy assets into sync folder
       run: |
         cp -R ./src/tokens ./sync
-        cp -R ./token-icons ./sync
+
+        mkdir -p ./sync/logos
+        cp -R ./token-icons/* ./sync/logos
     - name: Upload assets
       uses: jakejarvis/s3-sync-action@master
       with:

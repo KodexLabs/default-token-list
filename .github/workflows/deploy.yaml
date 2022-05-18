@@ -27,12 +27,21 @@ jobs:
           path: "build/koyo-default.tokenlist.json"
           pinata-api-key: ${{ secrets.PINATA_API_KEY }}
           pinata-secret-api-key: ${{ secrets.PINATA_API_SECRET_KEY }}
-      - name: Update DNS with new IPFS hash
-        env:
-          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
-          RECORD_DOMAIN: "koyo.finance"
-          RECORD_NAME: "_dnslink.tokens"
-          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
-        uses: textileio/cloudflare-update-dnslink@0fe7b7a1ffc865db3a4da9773f0f987447ad5848
+      - name: Copy assets into sync folder
+        run: |
+          cp -R ./src/tokens ./sync
+          cp build/koyo-default.tokenlist.json ./sync
+
+          mkdir -p ./sync/logos
+          cp -R ./token-icons/* ./sync/logos
+      - name: Upload assets
+        uses: jakejarvis/s3-sync-action@master
         with:
-          cid: ${{ steps.upload.outputs.hash }}
+          args: --follow-symlinks --delete --exclude '.gitkeep'
+        env:
+          AWS_S3_BUCKET: ${{ secrets.R2_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_S3_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          AWS_REGION: 'us-east-1'
+          SOURCE_DIR: 'sync'

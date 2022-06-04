@@ -30,5 +30,13 @@
     "decimals": 6,
     "chainId": 288,
     "logoURI": "https://tassets.koyo.finance/logos/USDT/512x512.png"
+  },
+  {
+    "name": "Kōyō",
+    "address": "0x618CC6549ddf12de637d46CDDadaFC0C2951131C",
+    "symbol": "KYO",
+    "decimals": 18,
+    "chainId": 288,
+    "logoURI": "https://tassets.koyo.finance/logos/KYO/512x512.png"
   }
 ]

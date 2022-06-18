@@ -5,7 +5,8 @@
     "symbol": "FRAX",
     "decimals": 18,
     "chainId": 288,
-    "logoURI": "https://tassets.koyo.finance/logos/FRAX/512x512.png"
+    "logoURI": "https://tassets.koyo.finance/logos/FRAX/512x512.png",
+    "tags": ["stablecoin"]
   },
   {
     "name": "Dai",
@@ -13,7 +14,8 @@
     "symbol": "DAI",
     "decimals": 18,
     "chainId": 288,
-    "logoURI": "https://tassets.koyo.finance/logos/DAI/512x512.png"
+    "logoURI": "https://tassets.koyo.finance/logos/DAI/512x512.png",
+    "tags": ["stablecoin"]
   },
   {
     "name": "USD Coin",
@@ -21,7 +23,8 @@
     "symbol": "USDC",
     "decimals": 6,
     "chainId": 288,
-    "logoURI": "https://tassets.koyo.finance/logos/USDC/512x512.png"
+    "logoURI": "https://tassets.koyo.finance/logos/USDC/512x512.png",
+    "tags": ["stablecoin"]
   },
   {
     "name": "Tether USD",
@@ -29,7 +32,8 @@
     "symbol": "USDT",
     "decimals": 6,
     "chainId": 288,
-    "logoURI": "https://tassets.koyo.finance/logos/USDT/512x512.png"
+    "logoURI": "https://tassets.koyo.finance/logos/USDT/512x512.png",
+    "tags": ["stablecoin"]
   },
   {
     "name": "Koyo",
@@ -38,5 +42,13 @@
     "decimals": 18,
     "chainId": 288,
     "logoURI": "https://tassets.koyo.finance/logos/KYO/512x512.png"
+  },
+  {
+    "name": "Wrapped ETH",
+    "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+    "symbol": "WETH",
+    "decimals": 18,
+    "chainId": 288,
+    "logoURI": "https://tassets.koyo.finance/logos/WETH/512x512.png"
   }
 ]

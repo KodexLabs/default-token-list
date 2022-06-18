@@ -11,9 +11,15 @@ module.exports = function buildList() {
       minor: +parsed[1],
       patch: +parsed[2],
     },
-    tags: {},
+    tags: {
+      stablecoin: {
+        name: "Stablecoin",
+        description:
+          "Tokens that are fixed to an external asset, e.g. the US dollar",
+      },
+    },
     logoURI: "ipfs://QmXRLVmTmtpPNFfCaWDpkjE4tGFt5GxVJkmekRP3d9HGYm",
-    keywords: ["koyo", "stableswap", "default"],
+    keywords: ["koyo", "stableswap", "dex", "amm", "boba", "default"],
     tokens: [...boba].sort((t1, t2) => {
       if (t1.chainId === t2.chainId) {
         return t1.symbol.toLowerCase() < t2.symbol.toLowerCase() ? -1 : 1;

@@ -68,5 +68,13 @@
         "chainId": 288,
         "logoURI": "https://tassets.koyo.finance/logos/GIN/512x512.png",
         "tags": ["dex"]
+    },
+    {
+        "name": "Avalanche",
+        "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "symbol": "AVAX",
+        "decimals": 18,
+        "chainId": 288,
+        "logoURI": "https://tassets.koyo.finance/logos/AVAX/512x512.png"
     }
 ]

@@ -18,10 +18,24 @@ module.exports = function buildList() {
                 description:
                     "Tokens that are fixed to an external asset, e.g. the US dollar",
             },
-            lStake: {
+            lstake: {
                 name: "Liquid staking token",
                 description:
                     "Tokens that represent a liquid alternative to a staked asset, e.g. ETH and stETH or NEAR and stNEAR",
+            },
+            gov: {
+                name: "Governance Tokens",
+                description:
+                    "Tokens whose holders have voting rights to the corresponding protocol",
+            },
+            dex: {
+                name: "DEX Tokens",
+                description: "Protocol tokens of Decentralized Exchanges",
+            },
+            bodh: {
+                name: "Bodh bTokens",
+                description:
+                    "Tokens that generate interest on the Bodh Finance Protocol",
             },
         },
         logoURI: "ipfs://QmXRLVmTmtpPNFfCaWDpkjE4tGFt5GxVJkmekRP3d9HGYm",

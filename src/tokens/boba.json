@@ -41,7 +41,8 @@
         "symbol": "KYO",
         "decimals": 18,
         "chainId": 288,
-        "logoURI": "https://tassets.koyo.finance/logos/KYO/512x512.png"
+        "logoURI": "https://tassets.koyo.finance/logos/KYO/512x512.png",
+        "tags": ["dex"]
     },
     {
         "name": "Wrapped ETH",
@@ -58,5 +59,14 @@
         "decimals": 18,
         "chainId": 288,
         "logoURI": "https://tassets.koyo.finance/logos/BOBA/512x512.png"
+    },
+    {
+        "name": "Gin Finance",
+        "address": "0xe48703F5AdfE59d271D951c2E602F654B86736E7",
+        "symbol": "GIN",
+        "decimals": 18,
+        "chainId": 288,
+        "logoURI": "https://tassets.koyo.finance/logos/GIN/512x512.png",
+        "tags": ["dex"]
     }
 ]

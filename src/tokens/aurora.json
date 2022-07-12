@@ -31,6 +31,6 @@
         "decimals": 24,
         "chainId": 1313161554,
         "logoURI": "https://tassets.koyo.finance/logos/stNEAR/512x512.png",
-        "tags": ["liquidStake"]
+        "tags": ["liquid-stake"]
     }
 ]

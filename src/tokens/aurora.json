@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Wrapped Near",
+        "address": "0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d",
+        "symbol": "wNEAR",
+        "decimals": 24,
+        "chainId": 1313161554,
+        "logoURI": "https://tassets.koyo.finance/logos/NEAR/512x512.png"
+    },
+    {
+        "name": "USN",
+        "address": "0x5183e1B1091804BC2602586919E6880ac1cf2896",
+        "symbol": "USN",
+        "decimals": 18,
+        "chainId": 1313161554,
+        "logoURI": "https://tassets.koyo.finance/logos/USN/512x512.png",
+        "tags": ["stablecoin"]
+    },
+    {
+        "name": "Aurora",
+        "address": "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79",
+        "symbol": "AURORA",
+        "decimals": 18,
+        "chainId": 1313161554,
+        "logoURI": "https://tassets.koyo.finance/logos/AURORA/512x512.png"
+    },
+    {
+        "name": "Staked NEAR",
+        "address": "0x07F9F7f963C5cD2BBFFd30CcfB964Be114332E30",
+        "symbol": "stNEAR",
+        "decimals": 24,
+        "chainId": 1313161554,
+        "logoURI": "https://tassets.koyo.finance/logos/stNEAR/512x512.png",
+        "tags": ["liquidStake"]
+    }
+]

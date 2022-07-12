@@ -1,4 +1,5 @@
 const { version } = require("../package.json");
+const aurora = require("./tokens/aurora.json");
 const boba = require("./tokens/boba.json");
 
 module.exports = function buildList() {
@@ -17,10 +18,14 @@ module.exports = function buildList() {
         description:
           "Tokens that are fixed to an external asset, e.g. the US dollar",
       },
+      liquidStake: {
+          name: "Liquid staking token",
+          description: "Tokens that represent a liquid alternative to a staked asset, e.g. ETH and stETH or NEAR and stNEAR"
+      }
     },
     logoURI: "ipfs://QmXRLVmTmtpPNFfCaWDpkjE4tGFt5GxVJkmekRP3d9HGYm",
-    keywords: ["koyo", "stableswap", "dex", "amm", "boba", "default"],
-    tokens: [...boba].sort((t1, t2) => {
+    keywords: ["koyo", "stableswap", "weighted", "dex", "amm", "boba", "aurora", "default"],
+    tokens: [...aurora, ...boba].sort((t1, t2) => {
       if (t1.chainId === t2.chainId) {
         return t1.symbol.toLowerCase() < t2.symbol.toLowerCase() ? -1 : 1;
       }

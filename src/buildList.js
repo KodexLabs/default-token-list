@@ -18,7 +18,7 @@ module.exports = function buildList() {
                 description:
                     "Tokens that are fixed to an external asset, e.g. the US dollar",
             },
-            "liquid-stake": {
+            lStake: {
                 name: "Liquid staking token",
                 description:
                     "Tokens that represent a liquid alternative to a staked asset, e.g. ETH and stETH or NEAR and stNEAR",

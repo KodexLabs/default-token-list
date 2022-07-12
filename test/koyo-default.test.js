@@ -6,7 +6,7 @@ const Ajv = require("ajv");
 const addFormats = require('ajv-formats');
 const buildList = require("../src/buildList");
 
-const ajv = new Ajv({ allErrors: true});
+const ajv = new Ajv({ allErrors: true });
 addFormats(ajv);
 const validator = ajv.compile(schema);
 

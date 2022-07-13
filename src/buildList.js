@@ -20,13 +20,13 @@ module.exports = function buildList() {
                     "Tokens that are fixed to an external asset, e.g. the US dollar",
             },
             lstake: {
-                name: "Liquid Staking Tokens",
+                name: "Liq Staking Tokens",
                 description:
                     "Tokens that represent a liquid alternative to a staked asset, e.g. ETH and stETH or NEAR and stNEAR",
             },
             xc: {
-                name: "Cross-Chain Tokens",
-                description: "Tokens that are available on all Pokadot/Kusama para-chains"
+                name: "XChain Tokens",
+                description: "Tokens that are available on all Pokadot and Kusama parachains"
             },
             gov: {
                 name: "Governance Tokens",

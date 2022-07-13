@@ -14,7 +14,10 @@ describe("buildList", () => {
   const defaultTokenList = buildList();
 
   it("validates", () => {
-    expect(validator(defaultTokenList)).to.equal(true);
+    const validation = validator(defaultTokenList);
+
+    console.log(validator.errors);
+    expect(validation).to.equal(true);
   });
 
   it("contains no duplicate addresses", () => {

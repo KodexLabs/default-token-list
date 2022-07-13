@@ -15,5 +15,41 @@
         "chainId": 1285,
         "logoURI": "https://tassets.koyo.finance/logos/xcKSM/512x512.png",
         "tags": ["xc"]
+    },
+    {
+        "name": "Frax",
+        "address": "0x1A93B23281CC1CDE4C4741353F3064709A16197d",
+        "symbol": "FRAX",
+        "decimals": 18,
+        "chainId": 1285,
+        "logoURI": "https://tassets.koyo.finance/logos/FRAX/512x512.png",
+        "tags": ["stablecoin"]
+    },
+    {
+        "name": "Dai",
+        "address": "0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844",
+        "symbol": "DAI",
+        "decimals": 18,
+        "chainId": 1285,
+        "logoURI": "https://tassets.koyo.finance/logos/DAI/512x512.png",
+        "tags": ["stablecoin"]
+    },
+    {
+        "name": "USD Coin",
+        "address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+        "symbol": "USDC",
+        "decimals": 6,
+        "chainId": 1285,
+        "logoURI": "https://tassets.koyo.finance/logos/USDC/512x512.png",
+        "tags": ["stablecoin"]
+    },
+    {
+        "name": "Cross-Chain Tether USD",
+        "address": "0xFFFFFFfFea09FB06d082fd1275CD48b191cbCD1d",
+        "symbol": "xcUSDT",
+        "decimals": 6,
+        "chainId": 1285,
+        "logoURI": "https://tassets.koyo.finance/logos/xcUSDT/512x512.png",
+        "tags": ["stablecoin", "xc"]
     }
 ]

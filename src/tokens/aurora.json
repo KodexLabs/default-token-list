@@ -36,7 +36,7 @@
     {
         "name": "USD Coin",
         "address": "0xB12BFcA5A55806AaF64E99521918A4bf0fC40802",
-        "symbol": "USDC",
+        "symbol": "USDCa",
         "decimals": 6,
         "chainId": 288,
         "logoURI": "https://tassets.koyo.finance/logos/USDC/512x512.png",
@@ -45,7 +45,7 @@
     {
         "name": "Tether USD",
         "address": "0x4988a896b1227218e4A686fdE5EabdcAbd91571f",
-        "symbol": "USDT",
+        "symbol": "USDTa",
         "decimals": 6,
         "chainId": 288,
         "logoURI": "https://tassets.koyo.finance/logos/USDT/512x512.png",

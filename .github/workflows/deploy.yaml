@@ -30,7 +30,7 @@ jobs:
       - name: Copy assets into sync folder
         run: |
           cp -R ./src/tokens ./sync
-          cp ./build/koyo-default.tokenlist.json ./synckoyo-default.tokenlist.json
+          cp ./build/koyo-default.tokenlist.json ./sync/koyo-default.tokenlist.json
           cp ./build/koyo-default.tokenlist.json ./sync/all.json
 
           mkdir -p ./sync/logos

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Wrapped MOVR",
+        "address": "0xf50225a84382c74CbdeA10b0c176f71fc3DE0C4d",
+        "symbol": "wMOVR",
+        "decimals": 18,
+        "chainId": 1285,
+        "logoURI": "https://tassets.koyo.finance/logos/wMOVR/512x512.png"
+    },
+    {
+        "name": "Cross-Chain Kusama",
+        "address": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080",
+        "symbol": "xcKSM",
+        "decimals": 12,
+        "chainId": 1285,
+        "logoURI": "https://tassets.koyo.finance/logos/xcKSM/512x512.png",
+        "tags": ["xc"]
+    }
+]

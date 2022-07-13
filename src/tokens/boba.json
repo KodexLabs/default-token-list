@@ -47,10 +47,10 @@
     {
         "name": "Wrapped ETH",
         "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
-        "symbol": "WETH",
+        "symbol": "wETH",
         "decimals": 18,
         "chainId": 288,
-        "logoURI": "https://tassets.koyo.finance/logos/WETH/512x512.png"
+        "logoURI": "https://tassets.koyo.finance/logos/wETH/512x512.png"
     },
     {
         "name": "Boba",

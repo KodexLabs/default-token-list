@@ -1,6 +1,7 @@
 const { version } = require("../package.json");
 const aurora = require("./tokens/aurora.json");
 const boba = require("./tokens/boba.json");
+const moonriver = require("./tokens/moonriver.json");
 
 module.exports = function buildList() {
     const parsed = version.split(".");
@@ -19,9 +20,13 @@ module.exports = function buildList() {
                     "Tokens that are fixed to an external asset, e.g. the US dollar",
             },
             lstake: {
-                name: "Liquid staking token",
+                name: "Liquid Staking Tokens",
                 description:
                     "Tokens that represent a liquid alternative to a staked asset, e.g. ETH and stETH or NEAR and stNEAR",
+            },
+            xc: {
+                name: "Cross-Chain Tokens",
+                description: "Tokens that are available on all Pokadot/Kusama para-chains"
             },
             gov: {
                 name: "Governance Tokens",
@@ -49,7 +54,7 @@ module.exports = function buildList() {
             "aurora",
             "default",
         ],
-        tokens: [...aurora, ...boba].sort((t1, t2) => {
+        tokens: [...aurora, ...boba, ...moonriver].sort((t1, t2) => {
             if (t1.chainId === t2.chainId) {
                 return t1.symbol.toLowerCase() < t2.symbol.toLowerCase()
                     ? -1

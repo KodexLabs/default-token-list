@@ -60,5 +60,14 @@
         "chainId": 1285,
         "logoURI": "https://tassets.koyo.finance/logos/ETH/512x512.png",
         "tags": ["multichain"]
+    },
+    {
+        "name": "Tether USD",
+        "address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+        "symbol": "USDT",
+        "decimals": 6,
+        "chainId": 1285,
+        "logoURI": "https://tassets.koyo.finance/logos/USDT/512x512.png",
+        "tags": ["multichain", "xc"]
     }
 ]

@@ -32,7 +32,7 @@
         "decimals": 18,
         "chainId": 1285,
         "logoURI": "https://tassets.koyo.finance/logos/DAI/512x512.png",
-        "tags": ["stablecoin"]
+        "tags": ["stablecoin", "multichain"]
     },
     {
         "name": "USD Coin",
@@ -41,7 +41,7 @@
         "decimals": 6,
         "chainId": 1285,
         "logoURI": "https://tassets.koyo.finance/logos/USDC/512x512.png",
-        "tags": ["stablecoin"]
+        "tags": ["stablecoin", "multichain"]
     },
     {
         "name": "Cross-Chain Tether USD",
@@ -51,5 +51,14 @@
         "chainId": 1285,
         "logoURI": "https://tassets.koyo.finance/logos/xcUSDT/512x512.png",
         "tags": ["stablecoin", "xc"]
+    },
+    {
+        "name": "Ethereum",
+        "address": "0x639A647fbe20b6c8ac19E48E2de44ea792c62c5C",
+        "symbol": "ETH",
+        "decimals": 18,
+        "chainId": 1285,
+        "logoURI": "https://tassets.koyo.finance/logos/ETH/512x512.png",
+        "tags": ["multichain"]
     }
 ]

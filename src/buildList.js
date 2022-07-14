@@ -28,6 +28,10 @@ module.exports = function buildList() {
                 name: "XChain Tokens",
                 description: "Tokens that are available on all Pokadot and Kusama parachains"
             },
+            multichain: {
+                name: "Multichain Tokens",
+                description: "Tokens that where bridged over from other networks using the Multichain bridge"
+            },
             gov: {
                 name: "Governance Tokens",
                 description:

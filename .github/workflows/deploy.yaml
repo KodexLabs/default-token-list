@@ -38,6 +38,9 @@ jobs:
 
           mkdir -p ./sync/wallets
           cp -R ./wallets-icons/* ./sync/wallets
+
+          mkdir -p ./sync/chains
+          cp -R ./chains-icons/* ./sync/chains
       - name: Upload assets
         uses: jakejarvis/s3-sync-action@master
         with:

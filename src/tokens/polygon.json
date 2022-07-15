@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Wrapped ETH",
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "symbol": "wETH",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://tassets.koyo.finance/logos/wETH/512x512.png"
+    },
+    {
+        "name": "Frax",
+        "address": "0x45c32fA6DF82ead1e2EF74d17b76547EDdFaFF89",
+        "symbol": "FRAX",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://tassets.koyo.finance/logos/FRAX/512x512.png",
+        "tags": ["stablecoin"]
+    },
+    {
+        "name": "Dai",
+        "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+        "symbol": "DAI",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://tassets.koyo.finance/logos/DAI/512x512.png",
+        "tags": ["stablecoin"]
+    },
+    {
+        "name": "USD Coin",
+        "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "symbol": "USDC",
+        "decimals": 6,
+        "chainId": 137,
+        "logoURI": "https://tassets.koyo.finance/logos/USDC/512x512.png",
+        "tags": ["stablecoin"]
+    },
+    {
+        "name": "Tether USD",
+        "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "symbol": "USDT",
+        "decimals": 6,
+        "chainId": 137,
+        "logoURI": "https://tassets.koyo.finance/logos/USDT/512x512.png",
+        "tags": ["stablecoin"]
+    },
+    {
+        "name": "Wrapped AVAX (Wormhole)",
+        "address": "0x7Bb11E7f8b10E9e571E5d8Eace04735fDFB2358a",
+        "symbol": "wAVAX",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://tassets.koyo.finance/logos/AVAX/512x512.png"
+    }
+]

@@ -2,6 +2,7 @@ const { version } = require("../package.json");
 const aurora = require("./tokens/aurora.json");
 const boba = require("./tokens/boba.json");
 const moonriver = require("./tokens/moonriver.json");
+const polygon = require("./tokens/polygon.json");
 
 module.exports = function buildList() {
     const parsed = version.split(".");
@@ -58,7 +59,7 @@ module.exports = function buildList() {
             "aurora",
             "default",
         ],
-        tokens: [...aurora, ...boba, ...moonriver].sort((t1, t2) => {
+        tokens: [...aurora, ...boba, ...moonriver, ...polygon].sort((t1, t2) => {
             if (t1.chainId === t2.chainId) {
                 return t1.symbol.toLowerCase() < t2.symbol.toLowerCase()
                     ? -1

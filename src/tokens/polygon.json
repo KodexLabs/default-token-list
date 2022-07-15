@@ -44,11 +44,37 @@
         "tags": ["stablecoin"]
     },
     {
-        "name": "Wrapped AVAX (Wormhole)",
-        "address": "0x7Bb11E7f8b10E9e571E5d8Eace04735fDFB2358a",
-        "symbol": "wAVAX",
+        "name": "Avalanche Token",
+        "address": "0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b",
+        "symbol": "AVAX",
         "decimals": 18,
         "chainId": 137,
         "logoURI": "https://tassets.koyo.finance/logos/AVAX/512x512.png"
+    },
+    {
+        "name": "SushiSwap Token",
+        "address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+        "symbol": "SUSHI",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://tassets.koyo.finance/logos/SUSHI/512x512.png",
+        "tags": ["dex"]
+    },
+    {
+        "name": "Curve DAO Token",
+        "address": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+        "symbol": "CRV",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://tassets.koyo.finance/logos/CRV/512x512.png",
+        "tags": ["dex"]
+    },
+    {
+        "name": "Wrapped MATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "symbol": "wMATIC",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://tassets.koyo.finance/logos/wMATIC/512x512.png"
     }
 ]

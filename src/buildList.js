@@ -27,11 +27,13 @@ module.exports = function buildList() {
             },
             xc: {
                 name: "XChain Tokens",
-                description: "Tokens that are available on all Pokadot and Kusama parachains"
+                description:
+                    "Tokens that are available on all Pokadot and Kusama parachains",
             },
             multichain: {
                 name: "Multichain Tokens",
-                description: "Tokens that where bridged over from other networks using the Multichain bridge"
+                description:
+                    "Tokens that where bridged over from other networks using the Multichain bridge",
             },
             gov: {
                 name: "Governance Tokens",
@@ -48,7 +50,7 @@ module.exports = function buildList() {
                     "Tokens that generate interest on the Bodh Finance Protocol",
             },
         },
-        logoURI: "ipfs://QmXRLVmTmtpPNFfCaWDpkjE4tGFt5GxVJkmekRP3d9HGYm",
+        logoURI: "https://tassets.koyo.finance/token-lists/koyo.png",
         keywords: [
             "koyo",
             "stableswap",
@@ -57,15 +59,21 @@ module.exports = function buildList() {
             "amm",
             "boba",
             "aurora",
+            "polygon",
+            "matic",
+            "moonriver",
+            "moonbeam",
             "default",
         ],
-        tokens: [...aurora, ...boba, ...moonriver, ...polygon].sort((t1, t2) => {
-            if (t1.chainId === t2.chainId) {
-                return t1.symbol.toLowerCase() < t2.symbol.toLowerCase()
-                    ? -1
-                    : 1;
+        tokens: [...aurora, ...boba, ...moonriver, ...polygon].sort(
+            (t1, t2) => {
+                if (t1.chainId === t2.chainId) {
+                    return t1.symbol.toLowerCase() < t2.symbol.toLowerCase()
+                        ? -1
+                        : 1;
+                }
+                return t1.chainId < t2.chainId ? -1 : 1;
             }
-            return t1.chainId < t2.chainId ? -1 : 1;
-        }),
+        ),
     };
 };
